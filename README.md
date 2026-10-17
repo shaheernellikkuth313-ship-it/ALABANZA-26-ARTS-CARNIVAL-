@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="ml">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alabanza'26 Arts Carnival</title>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+  background: linear-gradient(135deg, #10102e, #442080, #b32c76);
+}
+header { padding: 35px 10px; }
+.logo { color: #ffd76a; font-size: 40px; font-weight: bold; }
+.card {
+  margin: 18px auto;
+  padding: 22px;
+  width: 85%;
+  max-width: 450px;
+  background: #ffffff15;
+  border: 1px solid #ffffff55;
+  border-radius: 18px;
+}
+a {
+  display: block;
+  padding: 14px;
+  margin: 12px 0;
+  border-radius: 10px;
+  background: #ffd76a;
+  color: #241341;
+  text-decoration: none;
+  font-weight: bold;
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">ALABANZA</div>
+  <h2>2026 ARTS CARNIVAL</h2>
+  <p>കലയുടെ ആഘോഷത്തിലേക്ക് സ്വാഗതം!</p>
+</header>
+<section class="card">
+  <h2>പ്രധാന വിവരങ്ങൾ</h2>
+  <a href="#results">🏆 മത്സരഫലങ്ങൾ</a>
+  <a href="#events">🎭 മത്സരങ്ങൾ</a>
+  <a href="#gallery">📸 ഫോട്ടോ ഗാലറി</a>
+</section>
+<section class="card" id="results">
+  <h2>മത്സരഫലങ്ങൾ</h2>
+  <p>ഫലങ്ങൾ ഉടൻ പ്രസിദ്ധീകരിക്കുന്നതാണ്.</p>
+</section>
+<section class="card" id="events">
+  <h2>മത്സരങ്ങൾ</h2>
+  <p>മത്സരവിവരങ്ങൾ ഉടൻ ലഭ്യമാകും.</p>
+</section>
+<section class="card" id="gallery">
+  <h2>ഫോട്ടോ ഗാലറി</h2>
+  <p>ചിത്രങ്ങൾ ഉടൻ ലഭ്യമാകും.</p>
+</section>
+<footer style="padding:25px">
+  © 2026 Alabanza Arts Carnival
+</footer>
+</body>
+</html>
